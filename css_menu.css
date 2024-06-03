@@ -1,0 +1,100 @@
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos para el botón desplegable */
+.dropbtn {
+  background-color: #a2825c;
+  color: rgb(255, 255, 255);
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  font-family: "Averia Serif Libre", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Estilos para el contenedor del menú desplegable */
+.dropdown /*Permite al usuario escoger una sola opcion de la lista de opciones*/{
+  position: relative;
+  display: inline-block;/*Especifica si un elemento es tratado como block o inline element y el diseño usado*/
+}
+
+/* Estilos para el contenido del menú desplegable */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f5f2f2;
+  min-width: 160px; /*Determina la anchura minima de un elemento*/
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /*Añade efectos de sombra alrededor del marco de un elemento*/
+  z-index: 1;
+}
+
+/* Estilos para las opciones del menú desplegable */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;/*Establece el formato de texto*/
+  font-family: "Averia Serif Libre", serif;
+  font-weight: 300;
+  font-style: normal;
+  display: block;
+}
+
+/* Estilos para resaltar las opciones al pasar el ratón */
+.dropdown-content a:hover /*Muestra el menu desplegable cuado el mouse esta sobre el boton desplegable*/{
+  background-color: #f5da7a;
+}
+
+/* Mostrar el menú desplegable cuando el botón se haga clic */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Estilos adicionales para cuando el menú está abierto */
+.dropdown:hover .dropbtn {
+  background-color: #bb983a;
+}
+h1{
+  color:#dd0f0f ;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h2{
+  color: #6d381a;
+  
+}
+h3{
+  text-align: right;
+}
+.parrafo
+{
+ display: flex;
+}
+.grupo
+{
+  margin-right: 15px;
+  font-size: 20px;
+  text-decoration:underline;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.docente
+{
+ margin-left: 840px;
+ font-size: 20px;
+ text-decoration:underline;
+ font-family: "PT Sans Narrow", sans-serif;
+ font-weight: 400;
+ font-style: normal;
+}
+h2{
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
